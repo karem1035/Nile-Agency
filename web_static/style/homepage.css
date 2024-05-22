@@ -98,10 +98,101 @@ header .cont_btn button{
     height: 67px;
     border-radius: 15px;
     font-weight: 600;
+    cursor: pointer;
 }
 .head_line img{
     width: 730px;
     height: 730px;
     border-radius: 50%;
     margin-right: 50px;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    background-color: #f5f5f5;
+}
+.services .service_card{
+    display: flex;
+    gap: 50px;
+}
+.services .service_card .devops{
+    display: flex;
+    flex-direction: column;
+    /* width: 500px; */
+}
+.services .service_card .devops img{
+    width: 100%;
+    height: 500px;
+    border-radius: 30px;
+}
+.services .service_card .devops h3{
+    color: #ffffff;
+    font-size: 1.4em;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgba(33, 50, 68, 1);
+    padding: 7px;
+}
+.services .service_card .ui_ux{
+    display: flex;
+    flex-direction: column;
+    /* width: 25%; */
+}
+.services .service_card .ui_ux img{
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+
+}
+.services .service_card .ui_ux h3{
+    color: #ffffff;
+    font-size: 1.4em;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgba(33, 50, 68, 1);
+    padding: 7px;
+}
+.services .service_card .appdev{
+    display: flex;
+    flex-direction: column;
+    /* width: 25%; */
+}
+.services .service_card .appdev img{
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+}
+.services .service_card .appdev h3{
+    color: #ffffff;
+    font-size: 1.4em;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgba(33, 50, 68, 1);
+    padding: 7px;
+}
+.services .service_card .digitalM{
+    display: flex;
+    flex-direction: column;
+    /* width: 25%; */
+}
+.services .service_card .digitalM img{
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+}
+.services .service_card .digitalM h3{
+    color: #ffffff;
+    font-size: 1.4em;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgba(33, 50, 68, 1);
+    padding: 7px;
 }
