@@ -1,1 +1,1 @@
-Nile digital solution 
+Nile digital solution project
