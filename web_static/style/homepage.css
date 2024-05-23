@@ -218,3 +218,15 @@ header .cont_btn button{
     background-color: rgba(33, 50, 68, 1);
     padding: 7px;
 }
+.services .start {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.services .start img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+}
