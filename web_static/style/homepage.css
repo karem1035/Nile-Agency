@@ -231,7 +231,7 @@ header .cont_btn button{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 1000px;
+    height: 1100px;
     background-image: url(../images/benef.jpeg);
     margin-top: 400px;
 }
@@ -267,4 +267,22 @@ header .cont_btn button{
 }
 .description div p{
     font-size: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 107px;
+    background-color: rgba(246, 246, 246, 1);
+    bottom: 0;
+}
+.footer .brand_name{
+    color: rgba(105, 112, 119, 1);
+    margin-left: 150px;
+}
+.footer .social_media i{
+    width: 50px;
+    height: 50px; 
+
 }
