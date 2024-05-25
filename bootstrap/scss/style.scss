@@ -1,1 +1,11 @@
 @use 'custom';
+
+// Path: bootstrap/scss/_custom.scss
+// This file is used to override the default Bootstrap 5 variables.
+@use './components/animations';
+@use './components/buttons';
+@use './components/mixins';
+@use './components/typography';
+
+@use './sections/navbar';
+@use './sections/intro-section';
