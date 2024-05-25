@@ -1,0 +1,28 @@
+{
+  "name": "nile-agency",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karem1035/Nile-Agency.git"
+  },
+  "author": "michael.s tefera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karem1035/Nile-Agency/issues"
+  },
+  "homepage": "https://github.com/karem1035/Nile-Agency#readme",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.77.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "autoprefixer": "^10.4.19",
+    "bootstrap": "^5.3.3",
+    "postcss-cli": "^11.0.0"
+  }
+}
