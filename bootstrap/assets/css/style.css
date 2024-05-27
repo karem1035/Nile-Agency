@@ -11895,6 +11895,10 @@ textarea.form-control-lg {
   text-transform: none;
 }
 
+.display-3 {
+  font-weight: "Poppins", sans-serif;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(37, 63, 75, 0.95), rgba(142, 177, 194, 0.95));
 }
