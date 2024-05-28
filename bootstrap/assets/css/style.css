@@ -11986,6 +11986,7 @@ textarea.form-control-lg {
 
 .btn {
   position: relative;
+  margin-bottom: 3rem;
 }
 
 .border-animation {
@@ -12008,6 +12009,72 @@ textarea.form-control-lg {
 .footer {
   padding-top: 1rem;
   background-color: #151414;
+}
+
+.contact-box {
+  position: relative;
+}
+.contact-box__icon {
+  width: 2rem;
+  stroke: #253f4b;
+}
+@media (min-width: 576px) {
+  .contact-box__icon {
+    width: 4rem;
+  }
+}
+.contact-box__info {
+  padding: 0.4rem;
+  font-weight: 600;
+}
+.contact-box__info__title {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+@media (min-width: 576px) {
+  .contact-box__info__title {
+    width: 1.4rem;
+  }
+}
+.contact-box__info__subtitle {
+  font-size: 0.8rem;
+  color: #6c757d;
+  text-decoration: none;
+}
+@media (min-width: 576px) {
+  .contact-box__info__subtitle {
+    width: 1rem;
+  }
+}
+
+.footer-sm a {
+  color: #fff;
+}
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+@media (min-width: 576px) {
+  .footer-sm a i {
+    width: 1.6rem;
+  }
+}
+
+.footer-bottom {
+  background-color: #000;
+}
+.footer-bottom__copyright {
+  color: #6c757d;
+  font-weight: 400;
+}
+.footer-bottom__copyright a {
+  color: #dee2e6;
+  text-decoration: none;
+}
+.footer-bottom__copyright a:hover {
+  color: #253f4b;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */

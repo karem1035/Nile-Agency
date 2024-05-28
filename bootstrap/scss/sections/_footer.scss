@@ -5,3 +5,67 @@
     padding-top: 1rem;
     background-color: $footer;
 }
+.contact-box{
+    position: relative;
+    &__icon{
+        width: 2rem;
+        stroke: $primary;
+        @include media-breakpoint-up(sm){
+            width: 4rem;
+        }
+
+    }
+    &__info{
+        padding: 0.4rem;
+        font-weight: 600;
+
+
+        &__title{
+            color: $white;
+            text-decoration: none;
+            font-size: 1rem;
+
+            @include media-breakpoint-up(sm){
+                width: 1.4rem;
+            }
+        }
+        &__subtitle{
+            font-size: 0.8rem;
+            color: $gray-600;
+            text-decoration: none;
+
+            @include media-breakpoint-up(sm){
+                width: 1rem;
+            }
+        }
+    }
+}
+.footer-sm{
+    a{
+        color: $white;
+        i{
+            font-size: 1rem;
+            margin-left: 1rem;
+            @include media-breakpoint-up(sm){
+                width: 1.6rem;
+            }
+        }
+    }
+}
+.footer-bottom{
+    background-color: $black;
+    &__copyright{
+        color: $gray-600;
+        font-weight: 400;
+
+        a{
+            color: $gray-300;
+            text-decoration: none;
+
+            &:hover{
+                color: $primary;
+                text-decoration: underline;
+        }
+}
+}
+}
