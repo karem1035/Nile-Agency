@@ -11844,6 +11844,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@keyframes pulse-border {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
 .btn-rounded {
   position: relative;
   padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
@@ -11873,6 +11883,14 @@ textarea.form-control-lg {
 }
 .btn-rounded:hover span {
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+.btn-anime {
+  width: 10rem;
+  padding: 1rem;
+  font-weight: 700;
+  border: 0.1rem solid rgba(255, 255, 255, 0.6);
+  background-color: #fff;
 }
 
 .display-2 {
@@ -11927,6 +11945,69 @@ textarea.form-control-lg {
   position: relative;
   padding: 0;
   background: linear-gradient(to right, rgba(37, 63, 75, 0.95), rgba(142, 177, 194, 0.95));
+}
+.testimonials__card {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem 1.25rem;
+  border-radius: 0.625rem;
+  height: auto;
+  text-align: center;
+}
+.testimonials__card i {
+  font-size: 1.5rem;
+  color: rgba(37, 63, 75, 0.7);
+}
+.testimonials__card .rating i {
+  color: rgba(37, 63, 75, 0.7);
+  font-size: 1rem;
+}
+.testimonials__card__picture {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+.testimonials__card__name {
+  padding-top: 4rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 500;
+  color: rgba #fff;
+}
+.testimonials__card__name h3 {
+  padding-top: 0.8rem;
+}
+
+.get-started {
+  position: relative;
+  padding-top: 3rem;
+  background: linear-gradient(to right, rgba(37, 63, 75, 0.95), rgba(142, 177, 194, 0.95));
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.btn {
+  position: relative;
+}
+
+.border-animation {
+  position: absolute;
+  top: 0;
+  left: 44%;
+  width: 10rem;
+  height: 4.2rem;
+  border-radius: 2rem;
+  border: 0.55rem solid #fff;
+  animation: pulse-border 1.5s linear infinite;
+}
+.border-animation--border-1 {
+  animation-delay: 1s;
+}
+.border-animation--border-2 {
+  animation-delay: 1.5s;
+}
+
+.footer {
+  padding-top: 1rem;
+  background-color: #151414;
 }
 
 /*# sourceMappingURL=style.css.map */

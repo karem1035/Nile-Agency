@@ -1,0 +1,29 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+.get-started{
+    position: relative;
+    padding-top: 3rem;
+    @include gradient;
+    color: rgba($white, 0.8);
+}
+.btn{
+    position: relative;
+}
+.border-animation{
+    position: absolute;
+    top: 0;
+    left: 44%;
+    // margin-right: 20%;
+    width: 10rem;
+    height: 4.2rem;
+    border-radius: 2rem;
+    border: 0.55rem solid $white;
+    animation: pulse-border 1.5s linear infinite;
+
+    &--border-1{
+        animation-delay: 1s;
+    }
+    &--border-2{
+        animation-delay: 1.5s;
+    }
+}
