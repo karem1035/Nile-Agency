@@ -11941,6 +11941,23 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.service-intro-section {
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/bootstrap/images/service_backgroud.jpeg");
+}
+
+.subheadline {
+  background: linear-gradient(to right, rgba(37, 63, 75, 0.95), rgba(142, 177, 194, 0.95));
+  padding: 5rem 0 0 0;
+}
+
+.service-box {
+  width: 100%;
+  height: 50%;
+}
+
 .testimonials {
   position: relative;
   padding: 0;
