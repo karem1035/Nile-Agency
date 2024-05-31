@@ -12094,4 +12094,29 @@ textarea.form-control-lg {
   text-decoration: underline;
 }
 
+.servce-detail {
+  margin-top: 5rem;
+  border-top: 1px dashed gray;
+}
+.servce-detail ul {
+  font-size: 2rem;
+  list-style: disc;
+}
+
+.bg-color-1 {
+  background-color: greenyellow;
+}
+
+.bg-color-2 {
+  background-color: lightcoral;
+}
+
+.bg-color-3 {
+  background-color: lightblue;
+}
+
+.bg-color-4 {
+  background-color: lightgoldenrodyellow;
+}
+
 /*# sourceMappingURL=style.css.map */
