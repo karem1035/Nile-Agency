@@ -1,489 +1,658 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nile Agency</title>
-    <link rel="stylesheet" href="bootstrap/assets/css/style.css">
-    <link rel="stylesheet" href="bootstrap/assets/css/fontawesome.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="bootstrap/assets/css/style.css" />
+    <link rel="stylesheet" href="bootstrap/assets/css/fontawesome.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NavBar -->
     <nav class="navbar navbar-expand-lg navbar-light menu shadow fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="./index.html"><h1 style="color: white;">Nile Agency</h1>
+      <div class="container">
+        <a class="navbar-brand" href="./index.html"
+          ><h1 style="color: white">Nile Agency</h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./bootstrap/services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./bootstrap/AboutUs.html">About Us</a>
+            </li>
+          </ul>
+          <a href="./bootstrap/ContactUs.html">
+            <button type="button" class="rounded-pill btn-rounded">
+              Contact Us
+              <span>
+                <i class="fas fa-arrow-right"></i>
+              </span>
+            </button>
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./bootstrap/services.html">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./bootstrap/AboutUs.html">About Us</a>
-              </li>
-            </ul>
-            <a href="./bootstrap/ContactUs.html">
-              <button type="button" class="rounded-pill btn-rounded">Contact Us
-                <span>
-                  <i class="fas fa-arrow-right"></i>
-                </span>
-              </button>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="home" class="intro-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 intros">
+            <h1 class="display-2">
+              <span class="display-2--intro">
+                “Ride the Wave of Success with Nile Digital Solutions”
+              </span>
+              <span class="display-2--description lh-base">
+                “Welcome to Nile Digital Solution, your partner and where
+                innovation meets excellence in the digital world!”
+              </span>
+            </h1>
+            <a
+              href="./bootstrap/ContactUs.html"
+              class="rounded-pill btn btn-rounded"
+            >
+              Get In Touch
+              <span>
+                <i class="fa-solid fa-door-open"></i>
+              </span>
             </a>
-            
           </div>
-        </div>
-      </nav>
-      <!-- INTRODUCTION SECTION -->
-      <section id="home" class="intro-section">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-6 intros">
-              <h1 class="display-2">
-                <span class="display-2--intro">
-                  “Ride the Wave of Success with Nile Digital Solutions”
-                </span>
-                <span class="display-2--description lh-base">
-                  “Welcome to Nile Digital Solution,
-                  your partner and where innovation
-                  meets excellence in the digital world!”
-                </span>
-              </h1>
-              <a href="./bootstrap/ContactUs.html">
-                <button type="button" class="rounded-pill btn-rounded" href="./ContactUs.html">Get In Touch
-                  <span>
-                    <i class="fa-solid fa-door-open"></i>
-                  </span>
-                </button>
-              </a>
-            </div>
-            <div class="col-md-6 intros">
-              <div class="box">
-                <img src="bootstrap/images/image-intro.png" alt="" class="img-fluid">
-              </div>
+          <div class="col-md-6 intros">
+            <div class="box">
+              <img
+                src="bootstrap/images/image-intro.png"
+                alt=""
+                class="img-fluid"
+              />
             </div>
           </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L48,213.3C96,235,192,277,288,250.7C384,224,480,128,576,117.3C672,107,768,181,864,202.7C960,224,1056,192,1152,186.7C1248,181,1344,203,1392,213.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-      </section>
-      <!-- OUR SERVICES SECTION -->
-      <section class="our-service">
-        <div class="container">
-          <div class="row text-center mb-5">
-            <h1 class="display-3 fw-bold">OUR SERVICES</h1>
-          </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,192L48,213.3C96,235,192,277,288,250.7C384,224,480,128,576,117.3C672,107,768,181,864,202.7C960,224,1056,192,1152,186.7C1248,181,1344,203,1392,213.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Services Section -->
+    <section class="our-service">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <h1 class="display-3 fw-bold">OUR SERVICES</h1>
         </div>
-        <div class="container-fluid">
-          <div class="row">
-            <div id="carouselExampleCaptions" class="carousel slide">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="container-fluid d-flex flex-column align-items-center">
+        <div id="carouselExampleCaptions" class="carousel slide w-100">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="bootstrap/images/services/pic1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p class="display-3">Web Development And Operation</p>
               </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="bootstrap/images/services/pic1.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <a href="./bootstrap/services.html">
-                      <button type="button" class="rounded-pill btn-rounded">Learn More
-                        <span>
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </span>
-                      </button>
-                    </a>
-                    
-                    <p class="display-3">Web Development And Operation</p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="bootstrap/images/services/pic2.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <a href="./bootstrap/services.html">
-                      <button type="button" href="./services.html" class="rounded-pill btn-rounded">Learn More
-                        <span>
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </span>
-                      </button>
-                    </a>
-                    <p class="display-3">Digital Marketing</p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="bootstrap/images/services/pic3.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <a href="./bootstrap/services.html">
-                      <button type="button" href="./services.html" class="rounded-pill btn-rounded">Learn More
-                        <span>
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </span>
-                      </button>
-                    </a>
-                    <p class="display-3">Website Design</p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="bootstrap/images/services/pic4.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <a href="./bootstrap/services.html">
-                      <button type="button" href="./services.html" class="rounded-pill btn-rounded">Learn More
-                        <span>
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </span>
-                      </button>
-                    </a>
-                    <p class="display-3">Software Development</p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="bootstrap/images/services/pic5.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                    <a href="./bootstrap/services.html">
-                      <button type="button" href="./services.html" class="rounded-pill btn-rounded">Learn More
-                        <span>
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </span>
-                      </button>
-                    </a>
-                    
-                    <p class="display-3">Data Analysis</p>
-                  </div>
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
             </div>
-          </div>
-        </div>
-      </section>
-      <section class="Benefits mt-5">
-        <div class="container">
-          <div class="row text-center">
-            <h1 class="display-3 fw-bold text-uppercase">  Benefits of Working with Us
-            </h1>
-            <div class="row mt-5">
-              <div class="col-md-12">
-                <div class="accordion" id="accordionExample">
-                  <div class="accordion-item shadow mb-3">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Tailored Solutions
-                      </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                      <div class="accordion-body fs-1">
-                        We understand that every business is
-                        unique. By partnering with Nile Digital 
-                        Solution, clients can expect customized
-                        solutions tailored to their specific goals, 
-                        challenges, and industry dynamics.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item shadow mb-3">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Enhanced Brand Awareness
-                      </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                      <div class="accordion-body fs-1">
-                        Through compelling content creation, 
-                        engaging social media strategies, and 
-                        eye-catching website design, we help clients
-                        enhance their brand awareness and leave
-                        a memorable impression on their
-                        target audience.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item shadow mb-3">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Continuous Improvement
-                      </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                      <div class="accordion-body fs-1">
-                        The digital landscape is constantly evolving.
-                        Clients can trust Nile Digital Solution to stay
-                        ahead of the curve, keeping their strategies
-                        fresh, innovative, and aligned with the latest
-                        industry trends and best practices.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item shadow mb-3">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        Increased Online Visibility
-                      </button>
-                    </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                      <div class="accordion-body fs-1">
-                        Our strategic approach to digital marketing, SEO, and PPC advertising helps clients increase their online visibility, attract more qualified leads, and outshine competitors in the digital space.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item shadow mb-3">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                        Expert Guidance
-                      </button>
-                    </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                      <div class="accordion-body fs-1">
-                        With a team of experienced professionals
-                        at your disposal, clients can expect expert
-                        guidance and support every step of the way.
-                        Whether you're launching a new campaign
-                        or optimizing your existing digital assets,
-                        we're here to provide the expertise
-                        and insight you need to succeed.
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <div class="carousel-item">
+              <img
+                src="bootstrap/images/services/pic2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <a href="./bootstrap/services.html"> </a>
+                <p class="display-3">Digital Marketing</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="bootstrap/images/services/pic3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <a href="./bootstrap/services.html"> </a>
+                <p class="display-3">Website Design</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="bootstrap/images/services/pic4.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <a href="./bootstrap/services.html"> </a>
+                <p class="display-3">Software Development</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="bootstrap/images/services/pic5.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <a href="./bootstrap/services.html"> </a>
+
+                <p class="display-3">Data Analysis</p>
               </div>
             </div>
           </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-      </section>
-      <section class="testimonials">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,128L48,138.7C96,149,192,171,288,154.7C384,139,480,85,576,90.7C672,96,768,160,864,208C960,256,1056,288,1152,266.7C1248,245,1344,171,1392,133.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-        <div class="container">
-          <div class="row text-center">
-            <h1 class="display-3 fw-bold">Testimonials</h1>
-          </div>
-          <div class="row align-items-center">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <!-- TESTIMONIALS-1 -->
-                <div class="carousel-item active">
-                  <div class="testimonials__card">
-                    <p class="lh-lg">
-                      <i class="fas fa-quote-left"></i>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Delectus, ab! Molestias harum consequatur architecto facilis rerum esse tempore sapiente veritatis dolore.
-                      <i class="fas fa-quote-right"></i>
-                      <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                      </div>
+        <a
+          href="./bootstrap/services.html"
+          class="btn m-0 mt-4 bg-dark text-white rounded-pill btn-rounded"
+        >
+          Learn More
+          <span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </span>
+        </a>
+      </div>
+    </section>
+    <!-- Benifits Section -->
+    <section class="Benefits mt-5">
+      <div class="container">
+        <div class="row text-center">
+          <h1 class="display-3 fw-bold text-uppercase">
+            Benefits of Working with Us
+          </h1>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-12">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item shadow mb-3">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button fs-2"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Tailored Solutions
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body fs-1">
+                    <p>
+                      We understand that every business is unique. By partnering
+                      with Nile Digital Solution, clients can expect customized
+                      solutions tailored to their specific goals, challenges,
+                      and industry dynamics.
                     </p>
                   </div>
-                  <div class="testimonials__name text-center">
-                    <h3>Tom Cruise</h3>
-                    <p>Marketing Manger</p>
-                  </div>
                 </div>
-                <!-- TESTIMONIALS-2 -->
-                <div class="carousel-item">
-                  <div class="testimonials__card">
-                    <p class="lh-lg">
-                      <i class="fas fa-quote-left"></i>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Delectus, ab! Molestias harum consequatur architecto facilis rerum esse tempore sapiente veritatis dolore.
-                      <i class="fas fa-quote-right"></i>
-                      <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                      </div>
+              </div>
+              <div class="accordion-item shadow mb-3">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fs-2"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Enhanced Brand Awareness
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body fs-1">
+                    <p>
+                      Through compelling content creation, engaging social media
+                      strategies, and eye-catching website design, we help
+                      clients enhance their brand awareness and leave a
+                      memorable impression on their target audience.
                     </p>
-                  </div>
-                  <div class="testimonials__name text-center">
-                    <h3>Jems ward</h3>
-                    <p>CEO and Founder</p>
-                  </div>
-                </div>
-                <!-- TESTIMONIALS-3 -->
-                <div class="carousel-item">
-                  <div class="testimonials__card">
-                    <p class="lh-lg">
-                      <i class="fas fa-quote-left"></i>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Delectus, ab! Molestias harum consequatur architecto facilis rerum esse tempore sapiente veritatis dolore.
-                      <i class="fas fa-quote-right"></i>
-                      <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                      </div>
-                    </p>
-                  </div>
-                  <div class="testimonials__name text-center">
-                    <h3>Tony Stark</h3>
-                    <p>Stark Industries</p>
-                  </div>
-                </div>
-                <!-- TESTIMONIALS-4 -->
-                <div class="carousel-item">
-                  <div class="testimonials__card">
-                    <p class="lh-lg">
-                      <i class="fas fa-quote-left"></i>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Delectus, ab! Molestias harum consequatur architecto facilis rerum esse tempore sapiente veritatis dolore.
-                      <i class="fas fa-quote-right"></i>
-                      <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                      </div>
-                    </p>
-                  </div>
-                  <div class="testimonials__name text-center">
-                    <h3>John Cina</h3>
-                    <p>global marketing agent</p>
                   </div>
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+              <div class="accordion-item shadow mb-3">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fs-2"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Continuous Improvement
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body fs-1">
+                    <p>
+                      The digital landscape is constantly evolving. Clients can
+                      trust Nile Digital Solution to stay ahead of the curve,
+                      keeping their strategies fresh, innovative, and aligned
+                      with the latest industry trends and best practices.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item shadow mb-3">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fs-2"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    Increased Online Visibility
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body fs-1">
+                    <p>
+                      Our strategic approach to digital marketing, SEO, and PPC
+                      advertising helps clients increase their online
+                      visibility, attract more qualified leads, and outshine
+                      competitors in the digital space.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item shadow mb-3">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed fs-2"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    Expert Guidance
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body fs-1">
+                    <p>
+                      With a team of experienced professionals at your disposal,
+                      clients can expect expert guidance and support every step
+                      of the way. Whether you're launching a new campaign or
+                      optimizing your existing digital assets, we're here to
+                      provide the expertise and insight you need to succeed.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-      <section class="get-started">
-        <div class="container">
-          <div class="row text-center align-items-center">
-            <h1 class="display-3 fw-bold">
+      </div>
+    </section>
+    <!-- Testimonials section -->
+    <section class="testimonials">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,128L48,138.7C96,149,192,171,288,154.7C384,139,480,85,576,90.7C672,96,768,160,864,208C960,256,1056,288,1152,266.7C1248,245,1344,171,1392,133.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+        ></path>
+      </svg>
+      <div class="container">
+        <div class="row text-center">
+          <h1 class="display-3 fw-bold">Testimonials</h1>
+        </div>
+        <div class="row align-items-center">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <!-- TESTIMONIALS-1 -->
+              <div class="carousel-item active">
+                <div class="testimonials__card">
+                  <p class="lh-lg">
+                    <i class="fas fa-quote-left"></i>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus, ab! Molestias harum consequatur architecto facilis
+                    rerum esse tempore sapiente veritatis dolore.
+                    <i class="fas fa-quote-right"></i>
+                  </p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="testimonials__name text-center">
+                  <h3>Tom Cruise</h3>
+                  <p>Marketing Manger</p>
+                </div>
+              </div>
+              <!-- TESTIMONIALS-2 -->
+              <div class="carousel-item">
+                <div class="testimonials__card">
+                  <p class="lh-lg">
+                    <i class="fas fa-quote-left"></i>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus, ab! Molestias harum consequatur architecto facilis
+                    rerum esse tempore sapiente veritatis dolore.
+                    <i class="fas fa-quote-right"></i>
+                  </p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="testimonials__name text-center">
+                  <h3>Jems ward</h3>
+                  <p>CEO and Founder</p>
+                </div>
+              </div>
+              <!-- TESTIMONIALS-3 -->
+              <div class="carousel-item">
+                <div class="testimonials__card">
+                  <p class="lh-lg">
+                    <i class="fas fa-quote-left"></i>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus, ab! Molestias harum consequatur architecto facilis
+                    rerum esse tempore sapiente veritatis dolore.
+                    <i class="fas fa-quote-right"></i>
+                  </p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="testimonials__name text-center">
+                  <h3>Tony Stark</h3>
+                  <p>Stark Industries</p>
+                </div>
+              </div>
+              <!-- TESTIMONIALS-4 -->
+              <div class="carousel-item">
+                <div class="testimonials__card">
+                  <p class="lh-lg">
+                    <i class="fas fa-quote-left"></i>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus, ab! Molestias harum consequatur architecto facilis
+                    rerum esse tempore sapiente veritatis dolore.
+                    <i class="fas fa-quote-right"></i>
+                  </p>
+                  <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+                <div class="testimonials__name text-center">
+                  <h3>John Cina</h3>
+                  <p>global marketing agent</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Getstarted Section -->
+    <section class="get-started">
+      <div class="container">
+        <div class="row text-center align-items-center">
+          <h1 class="display-3 fw-bold">Get Started</h1>
+          <p class="display-4">
+            <i class="fas fa-quote-left"></i>
+            Ready to Elevate Your Digital Presence? Schedule a Free Consultation
+            Today!
+            <i class="fas fa-quote-right"></i>
+          </p>
+          <div class="btn">
+            <button
+              type="button"
+              class="btn rounded-pill btn-anime"
+              onclick="location.href='./bootstrap/ContactUs.html'"
+            >
               Get Started
-            </h1>
-            <p class="display-4">
-              <i class="fas fa-quote-left"></i>
-              Ready to Elevate Your Digital Presence? Schedule a Free Consultation Today!
-              <i class="fas fa-quote-right"></i>
-            </p>
-            <div class="btn">
-              <button type="button" class="rounded-pill btn-anime" href="./bootstrap/ContactUs.html">Get Started
-              </button>
-              <span class="border-animation border-animation--border-1"></span>
-              <span class="border-animation border-animation--border-2"></span>
+            </button>
+            <span class="border-animation border-animation--border-1"></span>
+            <span class="border-animation border-animation--border-2"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOOTER SECTION -->
+    <footer class="footer shadow">
+      <div class="container">
+        <div class="row">
+          <!-- whatsup number -->
+          <div
+            class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex"
+          >
+            <div class="contact-box__icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-phone-call"
+                viewBox="0 0 24 24"
+                stroke-width="1"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"
+                />
+                <path d="M15 7a2 2 0 0 1 2 2" />
+                <path d="M15 3a6 6 0 0 1 6 6" />
+              </svg>
+            </div>
+            <div class="contact-box __info">
+              <a href="" class="contact-box__info__title">+123456789</a>
+              <p class="contact-box __info__subtite">Mon-Fri 9am-6pm</p>
+            </div>
+          </div>
+          <!-- Email -->
+          <div
+            class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex"
+          >
+            <div class="contact-box__icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-mail-opened"
+                width="44"
+                height="44"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#2c3e50"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M3 9l9 6l9 -6l-9 -6l-9 6" />
+                <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+                <path d="M3 19l6 -6" />
+                <path d="M15 13l6 6" />
+              </svg>
+            </div>
+            <div class="contact-box __info">
+              <a href="" class="contact-box__info__title"
+                >info@nileagency.com</a
+              >
+              <p class="contact-box __info__subtite">Online Support</p>
+            </div>
+          </div>
+          <!-- Address -->
+          <div
+            class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex"
+          >
+            <div class="contact-box__icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-map-2"
+                width="44"
+                height="44"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#2c3e50"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5" />
+                <path d="M9 4v13" />
+                <path d="M15 7v5.5" />
+                <path
+                  d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z"
+                />
+                <path d="M19 18v.01" />
+              </svg>
+            </div>
+            <div class="contact-box __info">
+              <a href="" class="contact-box__info__title"
+                >Addis Abeba, Ethiopia</a
+              >
+              <p class="contact-box __info__subtite">Bole Road</p>
             </div>
           </div>
         </div>
-      </section>
-      <!-- FOOOTER SECTION -->
-      <footer class="footer shadow">
+      </div>
+      <div class="footer-sm" style="background-color: #212121">
         <div class="container">
-          <div class="row">
-            <!-- whatsup number -->
-            <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
-              <div class="contact-box__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-                  <path d="M15 7a2 2 0 0 1 2 2" />
-                  <path d="M15 3a6 6 0 0 1 6 6" />
-                </svg>
-              </div>
-              <div class="contact-box __info">
-                <a href="" class="contact-box__info__title">+123456789</a>
-                <p class="contact-box __info__subtite">Mon-Fri 9am-6pm</p>
-              </div>
+          <div class="row py-4 text-center text-white">
+            <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+              connect with our social media
             </div>
-            <!-- Email -->
-            <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
-              <div class="contact-box__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M3 9l9 6l9 -6l-9 -6l-9 6" />
-                  <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
-                  <path d="M3 19l6 -6" />
-                  <path d="M15 13l6 6" />
-                </svg>
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-                  <path d="M15 7a2 2 0 0 1 2 2" />
-                  <path d="M15 3a6 6 0 0 1 6 6" />
-                </svg>
-              </div>
-              <div class="contact-box __info">
-                <a href="" class="contact-box__info__title">info@nileagency.com</a>
-                <p class="contact-box __info__subtite">Online Support</p>
-              </div>
+            <div class="col-lg-7 col-md-6">
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-github"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
             </div>
-            <!-- Address -->
-            <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
-              <div class="contact-box__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5" />
-                  <path d="M9 4v13" />
-                  <path d="M15 7v5.5" />
-                  <path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" />
-                  <path d="M19 18v.01" />
-                </svg>
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-                  <path d="M15 7a2 2 0 0 1 2 2" />
-                  <path d="M15 3a6 6 0 0 1 6 6" />
-                </svg>
-              </div>
-              <div class="contact-box __info">
-                <a href="" class="contact-box__info__title">Addis Abeba, Ethiopia</a>
-                <p class="contact-box __info__subtite">Bole Road</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom pt-5 pb-5">
+        <div class="container">
+          <div class="row text-center text-white">
+            <div class="col-12">
+              <div class="footer-bottom__copyright">
+                &copy; 2024 Nile Agency. All Rights Reserved.
               </div>
             </div>
           </div>
         </div>
-        <div class="footer-sm" style="background-color: #212121;">
-          <div class="container">
-            <div class="row py-4 text-center text-white">
-              <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
-                connect with our social media
-              </div>
-              <div class="col-lg-7 col-md-6">
-                <a href=""><i class="fab fa-facebook"></i></a>
-                <a href=""><i class="fab fa-twitter"></i></a>
-                <a href=""><i class="fab fa-github"></i></a>
-                <a href=""><i class="fab fa-instagram"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="footer-bottom pt-5 pb-5">
-          <div class="container">
-            <div class="row text-center text-white">
-              <div class="col-12">
-                <div class="footer-bottom__copyright">
-                  &copy; 2024 Nile Agency. All Rights Reserved.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-</body>
+      </div>
+    </footer>
+  </body>
 </html>
