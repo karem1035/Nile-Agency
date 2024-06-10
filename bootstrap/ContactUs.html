@@ -113,62 +113,86 @@
           </div>
           <div class="col-12 col-lg-6 bg-white shadow p-3">
             <div class="form w-100 pb-2">
-              <h4 class="display-3--title mb-5">Fill The Form</h4>
-              <form action="#" class="row">
+              <h4 class="display-3--title mb-5 text-black">Fill The Form</h4>
+              <form
+                action="https://api.web3forms.com/submit"
+                method="POST"
+                class="row"
+              >
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="dbaf8408-58f2-4190-8e6e-1a3c06015530"
+                />
+
+                <!-- Name -->
                 <div class="mb-3">
                   <input
                     type="text"
-                    placeholder="First Name"
-                    id="inputFirstName"
+                    placeholder="Name"
+                    id="name"
                     class="shadow form-control form-control-lg"
+                    required
                   />
                 </div>
-                <div class="mb-3">
-                  <input
-                    type="text"
-                    placeholder="Last Name"
-                    id="inputLastName"
-                    class="shadow form-control form-control-lg"
-                  />
-                </div>
+                <!-- Email -->
                 <div class="mb-3">
                   <input
                     type="email"
                     placeholder="Email"
                     id="inputemail"
                     class="shadow form-control form-control-lg"
+                    required
                   />
                 </div>
+                <!-- Radio -->
                 <div class="mb-3">
-                  <input
-                    type="text"
-                    placeholder="Company Name"
-                    id="inputcompanyname"
-                    class="shadow form-control form-control-lg"
-                  />
+                  <div class="form-check ps-4">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="userRole"
+                      id="userRoleClient"
+                      value="Client"
+                      checked
+                    />
+                    <label
+                      class="form-check-label text-black"
+                      for="userRoleClient"
+                    >
+                      Client
+                    </label>
+                  </div>
+                  <div class="form-check ps-4">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="userRole"
+                      id="userRoleTalent"
+                      value="Talent"
+                    />
+                    <label
+                      class="form-check-label text-black"
+                      for="userRoleTalent"
+                    >
+                      Talent
+                    </label>
+                  </div>
                 </div>
+
+                <!-- More -->
+
                 <div class="mb-3">
                   <textarea
-                    name="message"
-                    placeholder="message"
-                    id="message"
-                    rows="8"
+                    name="description"
+                    placeholder="description"
+                    id="description"
+                    rows="4"
                     class="shadow form-control form-control-lg"
+                    required
                   ></textarea>
                 </div>
-                <div class="form-check form-switch">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    role="switch"
-                    id="flexSwitchCheckDefault"
-                  />
-                  <label
-                    class="form-check-label text-black"
-                    for="flexSwitchCheckDefault"
-                    >Do you need Appointment Date</label
-                  >
-                </div>
+
                 <div class="text-center d-grid mt-1">
                   <button class="btn btn-primary rounded-pill pt-3 pb-3">
                     submit
